@@ -1,0 +1,175 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15% 7% !important;
+
+}
+
+/* title-section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.heading-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold !important;
+}
+h2{
+  font-family: Montserrat;
+  font-weight: bold !important;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+
+.logo-font {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: 2.5rem !important;
+}
+
+.navbarpading {
+  padding-bottom: 4.5rem !important;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light-300', sans-serif;
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0% !important;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.title-image-div{
+  position: relative;
+}
+@media (max-width:990px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+/* features */
+
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
+
+}
+.features-box{
+  text-align: center;
+  padding: 4.5% !important;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20PX 20PX 50PX;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+ /* Footer section*/
+
+ #footer{
+   padding: 7% 15%;
+   text-align: center;
+ }
+
+ .social-icon{
+   margin: 20px 10px;
+ }
