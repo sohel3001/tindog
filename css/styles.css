@@ -145,6 +145,7 @@ p {
 #pricing{
   padding: 100px;
   text-align: center;
+  background-color: #fff;
 }
 
 .pricing-column{
@@ -172,6 +173,8 @@ p {
  #footer{
    padding: 7% 15%;
    text-align: center;
+   background-color: #fff;
+   color: black;
  }
 
  .social-icon{
